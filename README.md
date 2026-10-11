@@ -11,12 +11,13 @@ A responsive PG discovery website built for the Student Accommodation Website Pr
 5. If your MySQL password is not blank, update `DB_USER` and `DB_PASS` in `config.php`.
 6. Open `http://localhost/havenly/` in a browser.
 
-The photo and font URLs use online services, so they need an internet connection. Listings and authentication are stored in MySQL. Create an account to save or remove stays from your shortlist. The React 18 shortlist count falls back to a plain JavaScript counter if the CDN is unavailable.
+The sample listing photos and web fonts use online services. If a listing photo cannot load, a bundled room illustration keeps the page complete. Listings and authentication are stored in MySQL. Create an account to save or remove stays from your shortlist. The React 18 shortlist count falls back to a plain JavaScript counter if the CDN is unavailable.
 
 ## Project files
 
 - `index.php` — responsive page, detail/auth dialogs, and session bootstrap
 - `assets/css/style.css` — layout, responsive styles, and visual design
+- `assets/images/student-room.svg` — bundled illustration used when remote photos are unavailable
 - `assets/js/app.js` — filters, AJAX interactions, detail views, and React shortlist component
 - `api/` — property, interest, authentication, and logout endpoints
 - `database/schema.sql` — normalized schema and eight example properties

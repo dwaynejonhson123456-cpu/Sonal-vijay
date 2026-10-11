@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustration of a welcoming student room">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e8e9df"/><stop offset="1" stop-color="#dce3d8"/></linearGradient>
+    <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#d8c9ae"/><stop offset="1" stop-color="#bda98b"/></linearGradient>
+    <linearGradient id="window" x2="0" y2="1"><stop stop-color="#d6e6dc"/><stop offset="1" stop-color="#91b49e"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wall)"/><path d="M0 610 1200 555v245H0Z" fill="url(#floor)"/>
+  <rect x="100" y="90" width="340" height="370" rx="9" fill="#f8f6ee"/><rect x="122" y="112" width="296" height="326" fill="url(#window)"/>
+  <path d="M270 112v326M122 275h296" stroke="#f4f1e8" stroke-width="17"/>
+  <circle cx="184" cy="184" r="38" fill="#f1d495" opacity=".8"/><path d="M122 360q62-90 130-7t166-21v106H122Z" fill="#819f82" opacity=".62"/>
+  <rect x="560" y="423" width="520" height="230" rx="18" fill="#5e7965"/><rect x="580" y="390" width="480" height="186" rx="22" fill="#f3eee4"/>
+  <rect x="606" y="417" width="190" height="118" rx="18" fill="#d5ddd0"/><rect x="818" y="417" width="212" height="118" rx="18" fill="#e4d9c5"/>
+  <path d="M560 575h520v78H560Z" fill="#9e8163"/><path d="M590 653v80m460-80v80" stroke="#705941" stroke-width="22"/>
+  <rect x="145" y="516" width="210" height="136" rx="8" fill="#b78356"/><rect x="160" y="491" width="180" height="46" rx="7" fill="#d9b58b"/>
+  <path d="M248 491c-4-100-55-118-59-191m61 191c1-83 68-102 78-164m-78 164c-30-69-92-80-112-128" fill="none" stroke="#52735b" stroke-width="15" stroke-linecap="round"/>
+  <ellipse cx="187" cy="294" rx="28" ry="12" transform="rotate(54 187 294)" fill="#789879"/><ellipse cx="280" cy="324" rx="34" ry="12" transform="rotate(-42 280 324)" fill="#668766"/><ellipse cx="217" cy="367" rx="30" ry="12" transform="rotate(33 217 367)" fill="#86a382"/>
+  <rect x="464" y="220" width="12" height="310" fill="#c7b8a0"/><path d="M430 220h80l-40-52Z" fill="#d7c9af"/>
+  <circle cx="470" cy="270" r="15" fill="#f5dfab" opacity=".8"/>
+  <text x="600" y="748" fill="#496d57" font-family="Arial,sans-serif" font-size="24" letter-spacing="5">A SOFTER LANDING FOR WHAT’S NEXT</text>
+</svg>
